@@ -13,7 +13,7 @@ CRITFLAGS		+=	--coverage -lcriterion --verbose
 CPPFLAGS		+=	-Wall -Wextra -Werror $(INCFLAGS) $(CRITFLAGS)
 
 
-SRCS			=	test_my_convert_temp.cpp \
+SRCS			=	tests_my_convert_temp.cpp \
 					$(SRC_PATH)/my_convert_temp.cpp \
 					$(TESTS_SRC_PATH)/tests_sources.cpp
 
