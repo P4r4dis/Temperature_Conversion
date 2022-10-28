@@ -4,6 +4,13 @@
 #include <criterion/criterion.h>
 #include <criterion/redirect.h>
 #include <criterion/logging.h>
+#include <criterion/parameterized.h>
+#include <cmath>
+
+struct parameter_tuple {
+    double temp_fahrenheit;
+    double temp_celsius;
+};
 
 void                redirect_all_stdout(void);
 
