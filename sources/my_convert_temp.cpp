@@ -23,6 +23,5 @@ double my_convert_celsius_to_fahrenheit(double temp_celsius) {
 	std::cout.setf(std::ios::fixed, std::ios::floatfield);
     std::cout << std::setw(16) << fahrenheit << std::setw(16) 
     << "Fahrenheit" << std::endl << std::flush;
-
 	return fahrenheit;
 }
