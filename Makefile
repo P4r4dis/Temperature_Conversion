@@ -41,13 +41,13 @@ fclean		:	clean
 				$(RM) $(NAME) $(TEST_NAME)
 				@$(MAKE) $(FCLEAN) -C $(TST_PATH)
 
-re			: fclean all
+re			: 	fclean all
 
-tests_run:		fclean
+tests_run	:	fclean
 				@$(MAKE) -C $(TST_PATH)
 				$(TST_PATH)/$(TEST_NAME)
 
-.PHONY		: all clean fclean re tests_run
+.PHONY		: 	all clean fclean re tests_run
 
 # $(CC) -o $(TEST_NAME) $(SRC) $(SRC_TEST) $(TESTFLAGS) $(LIBFLAG)
 #-L. -lmy_malloct
