@@ -34,7 +34,7 @@ void	get_conversion(void)
 	std::cin >> temperature;
 	std::cin >> type_temp;
 	if (type_temp == "Celsius")
-		 my_convert_celsius_to_fahrenheit(temperature);
+		my_convert_celsius_to_fahrenheit(temperature);
 	else if (type_temp == "Fahrenheit")
 		my_convert_fahrenheit_to_celsius(temperature);
 }
