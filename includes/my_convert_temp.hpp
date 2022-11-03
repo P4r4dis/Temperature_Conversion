@@ -6,5 +6,6 @@
 
 double      my_convert_fahrenheit_to_celsius(double temp_fahrenheit);
 double      my_convert_celsius_to_fahrenheit(double temp_celsius);
+void	    get_conversion(void);
 
 #endif  // !__MY_CONVERT_TEMP__

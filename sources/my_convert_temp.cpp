@@ -25,3 +25,16 @@ double my_convert_celsius_to_fahrenheit(double temp_celsius) {
     << "Fahrenheit" << std::endl << std::flush;
 	return fahrenheit;
 }
+
+void	get_conversion(void)
+{
+	double			temperature;
+	std::string		type_temp;
+
+	std::cin >> temperature;
+	std::cin >> type_temp;
+	if (type_temp == "Celsius")
+		 my_convert_celsius_to_fahrenheit(temperature);
+	else if (type_temp == "Fahrenheit")
+		my_convert_fahrenheit_to_celsius(temperature);
+}
